@@ -35,7 +35,7 @@ class Program
         int[] numbers = new int[count];
         for (int i = 0; i < count; i++)
         {
-            numbers[i] = rand.Next(1, 10001); // Генерація чисел від 1 до 10000
+            numbers[i] = rand.Next(1, 10001); 
         }
         return numbers;
     }
